@@ -1,0 +1,158 @@
+html{
+  overflow-x: hidden;
+}
+
+html, body{
+  background: #242424;
+}
+
+.container-fluid, .row{
+  margin:0;
+  padding:0;
+}
+
+.navbar-brand{
+  width: 50px;
+}
+.row-height{
+  height: 50vh;
+}
+.main-row{
+  height: 100vh;
+  width: 100%;
+}
+
+.main-img{
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  filter: brightness(.75);
+}
+.fit{
+  height: 600px;
+  object-fit: contain;
+}
+#label{
+  height: 70vh;
+  margin: auto;
+  display: block;
+}
+h1{
+  font-size: 96px;
+}
+h2{
+  font-size: 64px;
+}
+h3{
+  font-size: 32px;
+}
+a, nav a:hover{
+  color: #a852b7;
+  transition: .5s;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+  color: #a852b7;
+  transition: .5s;
+}
+nav a{
+  color: #fff;
+  font-weight: bold;
+}
+.center-text{
+  margin-top: 10vh;
+}
+.hvr:hover a{
+  color: white;
+  text-decoration: none;
+}
+.hvr:hover{
+  background-color: #a852b7;
+  transition: 1s;
+}
+figcaption{
+  background: #a852b7;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.triple img{
+  height: 300px;
+  object-fit: contain;
+}
+p{
+
+}
+.img-fluid{
+  max-height: 100%;
+}
+.officer{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+ .row *{
+  color: #fff;
+}
+
+footer{
+  height: 10vh;
+}
+
+footer *{
+  color: #242424;
+}
+footer *{
+  height: inherit;
+}
+.h3dark{
+  color: #242424;
+}
+.bg-custom{
+  background: #242424;
+}
+#sfv{
+  background: url(../Images/Games/sfv.jpg) #6c757d;
+  background-blend-mode: multiply;
+  background-position: 50% 25%;
+}
+#tetris{
+  background: url(../Images/Games/tetris.jpg) #6c757d;
+  background-blend-mode: multiply;
+  background-position: 50% 25%;
+}
+#melee{
+  background: url(../Images/Games/melee.jpeg) #6c757d;
+  background-blend-mode: multiply;
+  background-position: 50%;
+}
+#rocketleague{
+  background: url(../Images/Games/rocketleague.jpg) #6c757d;
+  background-blend-mode: multiply;
+  background-position: 50% 35%;
+}
+#ultimate{
+  background: url(../Images/Games/ultimate.jpg) #6c757d;
+  background-blend-mode: multiply;
+}
+
+.parent{
+  width: 100vw;
+  height: 40vh;
+  overflow: hidden;
+}
+.child{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  transition: .5s;
+}
+.child a:hover{
+  color: #a852b7;
+}
+
+.parent:hover .child,
+.parent:focus .child{
+  transform:scale(1.2);
+  transition: all 1s;
+}
