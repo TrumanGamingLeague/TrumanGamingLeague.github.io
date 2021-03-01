@@ -39,6 +39,7 @@ html, body{
 }
 h1{
   font-size: 96px;
+  word-wrap: break-word;
 }
 h2{
   font-size: 64px;
